@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,700);
+
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+html, body{
+  margin:0;
+  height:100%;
+}
+
+nav{
+  background: #222;
+  margin: 0;
+  color: #fff;
+  position: fixed;
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li{
+  cursor:pointer;
+  display: block;
+  padding: 10px;
+}
+
+section{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  height: 100%;
+  color:#fff;
+}
+
+section span{
+  margin-top: 10px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:40px;
+  height:40px;
+  font-weight: bold;
+  font-size: 2em;
+  color: #fff;
+}
+
+#page1{
+  background-image: url(https://zsorohome.files.wordpress.com/2022/04/bloodborne-wallpaper.jpg?w=1200);
+}
+
+#page2{
+ background-image:  url("https://www.gamespot.com/a/uploads/scale_landscape/1406/14063904/2969399-oldhunters.jpg")
+}
